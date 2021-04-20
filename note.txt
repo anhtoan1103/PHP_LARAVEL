@@ -1,0 +1,6 @@
+create laravel project :
+composer create-project laravel/laravel CRUD
+create database:
+php artisan make:migration create_student_table
+php artisan migrate: tạo cơ sở dữ liệu mới dựa trên migration
+php artisan make:controller StudentController --resourse
